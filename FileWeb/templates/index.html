@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>File - Web</title>
+</head>
+<body>
+<form method="post" enctype="multipart/form-data" >
+    {% csrf_token %}
+  Select a file: <input type="file" name="myFile"><br><br>
+  <input type="submit">
+</form>
+</body>
+</html>
